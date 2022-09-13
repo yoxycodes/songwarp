@@ -2,8 +2,7 @@ import sys
 from pydub import AudioSegment
 
 # First argument is the path to the file
-# Second argument is the path to the output file
-# Third argument is the semitones to transpose
+# Second argument is the semitones to transpose
 def main(argv):
     try:
         input_file = str(argv[1])
