@@ -27,7 +27,7 @@ def main(argv):
     hipitch_sound = hipitch_sound.set_frame_rate(44100)
 
     # Export / save pitch changed sound
-    hipitch_sound.export(f"export.{input_file.split('.')[-1]}", format=input_file.split(".")[-1])
+    hipitch_sound.export(f"{input_file}-transposed.{input_file.split('.')[-1]}", format=input_file.split(".")[-1])
 
 if __name__ == '__main__':
     main(sys.argv)
