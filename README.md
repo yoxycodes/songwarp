@@ -7,10 +7,6 @@ Audio transposition utility based on semitones, keeping the song in tune.
 - [@yoxy](https://github.com/yoxy-sh)
 - [@zeph](https://github.com/ZephyrCodesStuff)
 
-
-## Badges
-
-Add badges from somewhere like: [shields.io](https://shields.io/)
 ## Features
 
 - Multiple formats
